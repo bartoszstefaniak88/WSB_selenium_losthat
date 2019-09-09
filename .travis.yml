@@ -1,0 +1,20 @@
+#user container-based infrastructure
+os: linux
+sudo: required
+addons:
+  chrome: stable
+before_install:
+  - wget https://chromedriver.storage.googleapis.com/75.0.3770.90/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - sudo mv chromedriver /usr/bin/
+
+# install dependencies
+#install: "pip install -r requirements.txt"
+install:
+  - make deps
+language: python
+python:
+  - "3.7"
+script:
+  - make test
+  - google-chrome --version
