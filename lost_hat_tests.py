@@ -8,8 +8,8 @@ class LostHatTests(unittest.TestCase):
 
 
     def setUp(self):
-        # self.driver =   webdriver.Chrome(executable_path='C:\TestFile\chromedriver.exe')
-        # driver = self.driver
+        #self.driver =   webdriver.Chrome(executable_path='C:\TestFile\chromedriver.exe')
+        #driver = self.driver
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--headless')
