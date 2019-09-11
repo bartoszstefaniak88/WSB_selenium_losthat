@@ -16,5 +16,5 @@ language: python
 python:
   - "3.7"
 script:
-  - make test
+  - python -m unittest lost_hat_tests.LostHatTests
   - google-chrome --version
