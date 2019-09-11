@@ -4,7 +4,7 @@ sudo: required
 addons:
   chrome: stable
 before_install:
-  - wget https://chromedriver.storage.googleapis.com/76.0.3809.68/chromedriver_linux64.zip
+  - wget https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.7.1/lib/python3.7/bin/
   - export CHROME_BIN=chromium-browser
 
