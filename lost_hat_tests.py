@@ -43,7 +43,7 @@ class LostHatTests(unittest.TestCase):
     def test_login_header(self):
         driver = self.driver
         driver.get(self.url_login)
-        expected_text = 'Log in to your account'
+        expected_text = 'Log in to your accountaaa'
         xpath = '//*[@id="main"]/header'
         self.assert_element_text(driver, xpath, expected_text)
 
