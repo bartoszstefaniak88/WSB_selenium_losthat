@@ -1,3 +1,7 @@
+Status test Travis-CI:
+[![Build Status](https://travis-ci.org/bartoszstefaniak88/WSB_selenium_losthat.svg?branch=master)](https://travis-ci.org/bartoszstefaniak88/WSB_selenium_losthat)
+
+
 I. Przypadki testowe
 
 Poniżej zestawiono przypadki testowe zawarte w projekcie identyfikowane przy pomocy ID przypadku:
